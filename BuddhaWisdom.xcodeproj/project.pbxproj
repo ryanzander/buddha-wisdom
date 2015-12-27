@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78B9B80E1C303BC000FA6724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B80D1C303BC000FA6724 /* main.m */; };
+		78B9B8111C303BC000FA6724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8101C303BC000FA6724 /* AppDelegate.m */; };
+		78B9B8141C303BC000FA6724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8131C303BC000FA6724 /* ViewController.m */; };
+		78B9B8171C303BC000FA6724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B8151C303BC000FA6724 /* Main.storyboard */; };
+		78B9B8191C303BC000FA6724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B8181C303BC000FA6724 /* Assets.xcassets */; };
+		78B9B81C1C303BC000FA6724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */; };
+		78B9B8271C303BC000FA6724 /* BuddhaWisdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8261C303BC000FA6724 /* BuddhaWisdomTests.m */; };
+		78B9B8321C303BC000FA6724 /* BuddhaWisdomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78B9B8231C303BC000FA6724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B9B8011C303BC000FA6724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B9B8081C303BC000FA6724;
+			remoteInfo = BuddhaWisdom;
+		};
+		78B9B82E1C303BC000FA6724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78B9B8011C303BC000FA6724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78B9B8081C303BC000FA6724;
+			remoteInfo = BuddhaWisdom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78B9B8091C303BC000FA6724 /* BuddhaWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddhaWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B9B80D1C303BC000FA6724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78B9B80F1C303BC000FA6724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78B9B8101C303BC000FA6724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78B9B8121C303BC000FA6724 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78B9B8131C303BC000FA6724 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78B9B8161C303BC000FA6724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78B9B8181C303BC000FA6724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78B9B81B1C303BC000FA6724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78B9B81D1C303BC000FA6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B9B8221C303BC000FA6724 /* BuddhaWisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhaWisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B9B8261C303BC000FA6724 /* BuddhaWisdomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddhaWisdomTests.m; sourceTree = "<group>"; };
+		78B9B8281C303BC000FA6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B9B82D1C303BC000FA6724 /* BuddhaWisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhaWisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddhaWisdomUITests.m; sourceTree = "<group>"; };
+		78B9B8331C303BC000FA6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78B9B8061C303BC000FA6724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B9B81F1C303BC000FA6724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B9B82A1C303BC000FA6724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78B9B8001C303BC000FA6724 = {
+			isa = PBXGroup;
+			children = (
+				78B9B80B1C303BC000FA6724 /* BuddhaWisdom */,
+				78B9B8251C303BC000FA6724 /* BuddhaWisdomTests */,
+				78B9B8301C303BC000FA6724 /* BuddhaWisdomUITests */,
+				78B9B80A1C303BC000FA6724 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78B9B80A1C303BC000FA6724 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78B9B8091C303BC000FA6724 /* BuddhaWisdom.app */,
+				78B9B8221C303BC000FA6724 /* BuddhaWisdomTests.xctest */,
+				78B9B82D1C303BC000FA6724 /* BuddhaWisdomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78B9B80B1C303BC000FA6724 /* BuddhaWisdom */ = {
+			isa = PBXGroup;
+			children = (
+				78B9B80F1C303BC000FA6724 /* AppDelegate.h */,
+				78B9B8101C303BC000FA6724 /* AppDelegate.m */,
+				78B9B8121C303BC000FA6724 /* ViewController.h */,
+				78B9B8131C303BC000FA6724 /* ViewController.m */,
+				78B9B8151C303BC000FA6724 /* Main.storyboard */,
+				78B9B8181C303BC000FA6724 /* Assets.xcassets */,
+				78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */,
+				78B9B81D1C303BC000FA6724 /* Info.plist */,
+				78B9B80C1C303BC000FA6724 /* Supporting Files */,
+			);
+			path = BuddhaWisdom;
+			sourceTree = "<group>";
+		};
+		78B9B80C1C303BC000FA6724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78B9B80D1C303BC000FA6724 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78B9B8251C303BC000FA6724 /* BuddhaWisdomTests */ = {
+			isa = PBXGroup;
+			children = (
+				78B9B8261C303BC000FA6724 /* BuddhaWisdomTests.m */,
+				78B9B8281C303BC000FA6724 /* Info.plist */,
+			);
+			path = BuddhaWisdomTests;
+			sourceTree = "<group>";
+		};
+		78B9B8301C303BC000FA6724 /* BuddhaWisdomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */,
+				78B9B8331C303BC000FA6724 /* Info.plist */,
+			);
+			path = BuddhaWisdomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78B9B8081C303BC000FA6724 /* BuddhaWisdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B9B8361C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdom" */;
+			buildPhases = (
+				78B9B8051C303BC000FA6724 /* Sources */,
+				78B9B8061C303BC000FA6724 /* Frameworks */,
+				78B9B8071C303BC000FA6724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddhaWisdom;
+			productName = BuddhaWisdom;
+			productReference = 78B9B8091C303BC000FA6724 /* BuddhaWisdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78B9B8211C303BC000FA6724 /* BuddhaWisdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B9B8391C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomTests" */;
+			buildPhases = (
+				78B9B81E1C303BC000FA6724 /* Sources */,
+				78B9B81F1C303BC000FA6724 /* Frameworks */,
+				78B9B8201C303BC000FA6724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78B9B8241C303BC000FA6724 /* PBXTargetDependency */,
+			);
+			name = BuddhaWisdomTests;
+			productName = BuddhaWisdomTests;
+			productReference = 78B9B8221C303BC000FA6724 /* BuddhaWisdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78B9B82C1C303BC000FA6724 /* BuddhaWisdomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78B9B83C1C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomUITests" */;
+			buildPhases = (
+				78B9B8291C303BC000FA6724 /* Sources */,
+				78B9B82A1C303BC000FA6724 /* Frameworks */,
+				78B9B82B1C303BC000FA6724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78B9B82F1C303BC000FA6724 /* PBXTargetDependency */,
+			);
+			name = BuddhaWisdomUITests;
+			productName = BuddhaWisdomUITests;
+			productReference = 78B9B82D1C303BC000FA6724 /* BuddhaWisdomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78B9B8011C303BC000FA6724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ryan Zander";
+				TargetAttributes = {
+					78B9B8081C303BC000FA6724 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					78B9B8211C303BC000FA6724 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 78B9B8081C303BC000FA6724;
+					};
+					78B9B82C1C303BC000FA6724 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 78B9B8081C303BC000FA6724;
+					};
+				};
+			};
+			buildConfigurationList = 78B9B8041C303BC000FA6724 /* Build configuration list for PBXProject "BuddhaWisdom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78B9B8001C303BC000FA6724;
+			productRefGroup = 78B9B80A1C303BC000FA6724 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78B9B8081C303BC000FA6724 /* BuddhaWisdom */,
+				78B9B8211C303BC000FA6724 /* BuddhaWisdomTests */,
+				78B9B82C1C303BC000FA6724 /* BuddhaWisdomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78B9B8071C303BC000FA6724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B9B81C1C303BC000FA6724 /* LaunchScreen.storyboard in Resources */,
+				78B9B8191C303BC000FA6724 /* Assets.xcassets in Resources */,
+				78B9B8171C303BC000FA6724 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B9B8201C303BC000FA6724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B9B82B1C303BC000FA6724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78B9B8051C303BC000FA6724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B9B8141C303BC000FA6724 /* ViewController.m in Sources */,
+				78B9B8111C303BC000FA6724 /* AppDelegate.m in Sources */,
+				78B9B80E1C303BC000FA6724 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B9B81E1C303BC000FA6724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B9B8271C303BC000FA6724 /* BuddhaWisdomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B9B8291C303BC000FA6724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B9B8321C303BC000FA6724 /* BuddhaWisdomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78B9B8241C303BC000FA6724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78B9B8081C303BC000FA6724 /* BuddhaWisdom */;
+			targetProxy = 78B9B8231C303BC000FA6724 /* PBXContainerItemProxy */;
+		};
+		78B9B82F1C303BC000FA6724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78B9B8081C303BC000FA6724 /* BuddhaWisdom */;
+			targetProxy = 78B9B82E1C303BC000FA6724 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78B9B8151C303BC000FA6724 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B9B8161C303BC000FA6724 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78B9B81B1C303BC000FA6724 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78B9B8341C303BC000FA6724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78B9B8351C303BC000FA6724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78B9B8371C303BC000FA6724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddhaWisdom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78B9B8381C303BC000FA6724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddhaWisdom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78B9B83A1C303BC000FA6724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddhaWisdomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddhaWisdom.app/BuddhaWisdom";
+			};
+			name = Debug;
+		};
+		78B9B83B1C303BC000FA6724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddhaWisdomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddhaWisdom.app/BuddhaWisdom";
+			};
+			name = Release;
+		};
+		78B9B83D1C303BC000FA6724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddhaWisdomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddhaWisdom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		78B9B83E1C303BC000FA6724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddhaWisdomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddhaWisdom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78B9B8041C303BC000FA6724 /* Build configuration list for PBXProject "BuddhaWisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B9B8341C303BC000FA6724 /* Debug */,
+				78B9B8351C303BC000FA6724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78B9B8361C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B9B8371C303BC000FA6724 /* Debug */,
+				78B9B8381C303BC000FA6724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78B9B8391C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B9B83A1C303BC000FA6724 /* Debug */,
+				78B9B83B1C303BC000FA6724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78B9B83C1C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78B9B83D1C303BC000FA6724 /* Debug */,
+				78B9B83E1C303BC000FA6724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78B9B8011C303BC000FA6724 /* Project object */;
+}
