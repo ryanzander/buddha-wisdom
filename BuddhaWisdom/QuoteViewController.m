@@ -171,7 +171,7 @@
             break;
         
         case 20:
-            quote = @"\"Even if he recites little of the sacred texts, but follows the Dharma, forsaking passion, hatred, and delusion, possessing true knowledge and freedom of mind, not  clinging to anything in this world or the next -- he indeed shares in the holy life.\"";
+            quote = @"\"Even if he recites little of the sacred texts, but follows the Dharma, forsaking passion, hatred, and delusion, possessing true knowledge and freedom of mind, not clinging to anything in this world or the next—he indeed shares in the holy life.\"";
             break;
         
         case 21:
@@ -187,7 +187,7 @@
             break;
         
         case 24:
-            quote = @"\"Whoever is energetic, mindful, pure in conduct, considerate in action, self-restrained, and lives following the Dharma -- his glory ever increases.\"";
+            quote = @"\"Whoever is energetic, mindful, pure in conduct, considerate in action, self-restrained, and lives following the Dharma — his glory ever increases.\"";
             break;
         
         case 25:
@@ -223,7 +223,7 @@
             break;
         
         case 33:
-            quote = @"\"Just as a fletcher straightens the shaft of an arrow, a wise man straightens his mind -- so trembling and unsteady, so difficult to guard and control.\"";
+            quote = @"\"Just as a fletcher straightens the shaft of an arrow, a wise man straightens his mind—so trembling and unsteady, so difficult to guard and control.\"";
             break;
         
         case 34:
@@ -695,7 +695,7 @@
             break;
         
         case 151:
-            quote = @"\"Even brilliant chariots of kings become worn down, so the body also approaches destruction. But the Dharma of good people never approaches destruction,--thus do the good say to the good.\"";
+            quote = @"\"Even brilliant chariots of kings become worn down, so the body also approaches destruction. But the Dharma of good people never approaches destruction—thus do the good say to the good.\"";
             break;
         
         case 152:
@@ -703,11 +703,11 @@
             break;
         
         case 153:
-            quote = @"\"Through a course of many births I have run, looking for, but not finding, the builder of this house. And painful is birth again and again. But now, house-builder, you are seen. You will not build this house again. All your rafters are broken, and your ridgepole is destroyed. The mind, approaching the eternal, has attained to the extinction of craving.\"";
+            quote = @"\"Don’t think lightly of evil, saying, ‘It will not come to me.’ Even a pot is filled by water falling in drops. The fool becomes full of evil, even if he gathers it little by little.\"";
             break;
         
         case 154:
-            quote = @"\"Through a course of many births I have run, looking for, but not finding, the builder of this house. And painful is birth again and again. But now, house-builder, you are seen. You will not build this house again. All your rafters are broken, and your ridgepole is destroyed. The mind, approaching the eternal, has attained to the extinction of craving.\"";
+            quote = @"\"Don’t think lightly of evil, saying, ‘It will not come to me.’ Even a pot is filled by water falling in drops. The fool becomes full of evil, even if he gathers it little by little.\"";
             break;
         
         case 155:
@@ -747,7 +747,7 @@
             break;
         
         case 164:
-            quote = @"\"The foolish man who scorns the teaching of the venerable, the noble, the virtuous -- and following false views -- that man bears fruit for his own destruction, like the fruits of the bamboo.\"";
+            quote = @"\"The foolish man who scorns the teaching of the venerable, the noble, the virtuous—and following false views—that man bears fruit for his own destruction, like the fruits of the bamboo.\"";
             break;
         
         case 165:
@@ -871,11 +871,11 @@
             break;
         
         case 195:
-            quote = @"\"He who pays homage to those who deserve homage, whether the Buddhas or their disciples -- those who have overcome all obscurations, and crossed the flood of sorrow, fearless and delivered from suffering -- he who pays homage to such, his merit can never be measured by anybody.\"";
+            quote = @"\"He who pays homage to those who deserve homage, whether the Buddhas or their disciples—those who have overcome all obscurations, and crossed the flood of sorrow, fearless and delivered from suffering—he who pays homage to such, his merit can never be measured by anybody.\"";
             break;
         
         case 196:
-            quote = @"\"He who pays homage to those who deserve homage, whether the Buddhas or their disciples -- those who have overcome all obscurations, and crossed the flood of sorrow, fearless and delivered from suffering -- he who pays homage to such, his merit can never be measured by anybody.\"";
+            quote = @"\"He who pays homage to those who deserve homage, whether the Buddhas or their disciples—those who have overcome all obscurations, and crossed the flood of sorrow, fearless and delivered from suffering—he who pays homage to such, his merit can never be measured by anybody.\"";
             break;
         
         case 197:
@@ -967,11 +967,11 @@
             break;
         
         case 219:
-            quote = @"\"Kinsmen, friends, and lovers welcome a man who has been away long, and returns safe from afar. In like manner, one who has done good, and has gone from this world to the other, is received by his good deeds -- as kinsmen receive a friend on his return.\"";
+            quote = @"\"Kinsmen, friends, and lovers welcome a man who has been away long, and returns safe from afar. In like manner, one who has done good, and has gone from this world to the other, is received by his good deeds—as kinsmen receive a friend on his return.\"";
             break;
         
         case 220:
-            quote = @"\"Kinsmen, friends, and lovers welcome a man who has been away long, and returns safe from afar. In like manner, one who has done good, and has gone from this world to the other, is received by his good deeds -- as kinsmen receive a friend on his return.\"";
+            quote = @"\"Kinsmen, friends, and lovers welcome a man who has been away long, and returns safe from afar. In like manner, one who has done good, and has gone from this world to the other, is received by his good deeds—as kinsmen receive a friend on his return.\"";
             break;
         
         case 221:
@@ -1007,11 +1007,11 @@
             break;
         
         case 229:
-            quote = @"\"The man whom the wise praise, after observing him continually day after day, as one without blemish, wise, rich in knowledge and virtue -- who would dare to blame him, one as faultless as a golden coin? Even the gods praise him, he is praised even by Brahma.\"";
+            quote = @"\"The man whom the wise praise, after observing him continually day after day, as one without blemish, wise, rich in knowledge and virtue—who would dare to blame him, one as faultless as a golden coin? Even the gods praise him, he is praised even by Brahma.\"";
             break;
         
         case 230:
-            quote = @"\"The man whom the wise praise, after observing him continually day after day, as one without blemish, wise, rich in knowledge and virtue -- who would dare to blame him, one as faultless as a golden coin? Even the gods praise him, he is praised even by Brahma.\"";
+            quote = @"\"The man whom the wise praise, after observing him continually day after day, as one without blemish, wise, rich in knowledge and virtue—who would dare to blame him, one as faultless as a golden coin? Even the gods praise him, he is praised even by Brahma.\"";
             break;
         
         case 231:
@@ -1063,7 +1063,7 @@
             break;
         
         case 243:
-            quote = @"\"There is a taint worse than all other taints -- ignorance is the greatest taint. O monks, throw off that taint, and become taintless!\"";
+            quote = @"\"There is a taint worse than all other taints—ignorance is the greatest taint. O monks, throw off that taint, and become taintless!\"";
             break;
         
         case 244:
@@ -1075,11 +1075,11 @@
             break;
         
         case 246:
-            quote = @"\"Someone who destroys life, speaks lies, steals, goes to another man's wife, and is addicted to intoxicating drinks -- even in this world, he digs up his own root.\"";
+            quote = @"\"Someone who destroys life, speaks lies, steals, goes to another man's wife, and is addicted to intoxicating drinks—even in this world, he digs up his own root.\"";
             break;
         
         case 247:
-            quote = @"\"Someone who destroys life, speaks lies, steals, goes to another man's wife, and is addicted to intoxicating drinks -- even in this world, he digs up his own root.\"";
+            quote = @"\"Someone who destroys life, speaks lies, steals, goes to another man's wife, and is addicted to intoxicating drinks—even in this world, he digs up his own root.\"";
             break;
             
         case 248:
@@ -1211,11 +1211,11 @@
             break;
         
         case 280:
-            quote = @"\"He who does not rouse himself when it is time to rise, who, though young and strong, is full of sloth, whose will and thought are weak -- that lazy and idle man will never find the way to wisdom.\"";
+            quote = @"\"He who does not rouse himself when it is time to rise, who, though young and strong, is full of sloth, whose will and thought are weak—that lazy and idle man will never find the way to wisdom.\"";
             break;
         
         case 281:
-            quote = @"\"Watching his speech, well restrained in mind, and never committing any wrong with his body -- let a man purify these three courses of action, and he will achieve the path which is taught by the wise.\"";
+            quote = @"\"Watching his speech, well restrained in mind, and never committing any wrong with his body—let a man purify these three courses of action, and he will achieve the path which is taught by the wise.\"";
             break;
         
         case 282:
@@ -1327,11 +1327,11 @@
             break;
         
         case 309:
-            quote = @"\"A reckless man who sleeps with another's wife gains four things -- an abundance of demerit, a lack of sleep, criticism, and hell. Such a man gains demerit and the evil road to hell. Short is the pleasure of the frightened man and woman, and the king imposes heavy punishment. Therefore let no man sleep with another's wife.\"";
+            quote = @"\"A reckless man who sleeps with another's wife gains four things—an abundance of demerit, a lack of sleep, criticism, and hell. Such a man gains demerit and the evil road to hell. Short is the pleasure of the frightened man and woman, and the king imposes heavy punishment. Therefore let no man sleep with another's wife.\"";
             break;
         
         case 310:
-            quote = @"\"A reckless man who sleeps with another's wife gains four things -- an abundance of demerit, a lack of sleep, criticism, and hell. Such a man gains demerit and the evil road to hell. Short is the pleasure of the frightened man and woman, and the king imposes heavy punishment. Therefore let no man sleep with another's wife.\"";
+            quote = @"\"A reckless man who sleeps with another's wife gains four things—an abundance of demerit, a lack of sleep, criticism, and hell. Such a man gains demerit and the evil road to hell. Short is the pleasure of the frightened man and woman, and the king imposes heavy punishment. Therefore let no man sleep with another's wife.\"";
             break;
         
         case 311:
@@ -1339,7 +1339,7 @@
             break;
         
         case 312:
-            quote = @"\"A careless action, a broken vow, and questionable observance of celibacy -- all these bear no great fruit.\"";
+            quote = @"\"A careless action, a broken vow, and questionable observance of celibacy—all these bear no great fruit.\"";
             break;
         
         case 313:
@@ -1407,7 +1407,7 @@
             break;
         
         case 329:
-            quote = @"\"If you don’t find a prudent companion who is virtuous and wise, then walk alone, like a king who has left his conquered country behind -- like an elephant in the forest.\"";
+            quote = @"\"If you don’t find a prudent companion who is virtuous and wise, then walk alone, like a king who has left his conquered country behind—like an elephant in the forest.\"";
             break;
         
         case 330:
@@ -1447,11 +1447,11 @@
             break;
         
         case 339:
-            quote = @"\"He who is exceeding strong in the thirty-six channels of craving, flowing after desires -- waves of passionate thoughts will carry away that misguided man.\"";
+            quote = @"\"He who is exceeding strong in the thirty-six channels of craving, flowing after desires—waves of passionate thoughts will carry away that misguided man.\"";
             break;
         
         case 340:
-            quote = @"\"He who is exceeding strong in the thirty-six channels of craving, flowing after desires -- waves of passionate thoughts will carry away that misguided man.\"";
+            quote = @"\"He who is exceeding strong in the thirty-six channels of craving, flowing after desires—waves of passionate thoughts will carry away that misguided man.\"";
             break;
         
         case 341:
@@ -1539,7 +1539,7 @@
             break;
         
         case 362:
-            quote = @"\"He who controls his hands, who controls his feet, who controls his speech, who is well controlled, who delights inwardly, who is collected, who is solitary and content -- him they call a monk.\"";
+            quote = @"\"He who controls his hands, who controls his feet, who controls his speech, who is well controlled, who delights inwardly, who is collected, who is solitary and content—him they call a monk.\"";
             break;
         
         case 363:
@@ -1555,7 +1555,7 @@
             break;
         
         case 366:
-            quote = @"\"A monk who, though he receives little, does not despise what he has received, is pure in livelihood, and is not lazy -- even the gods will praise him.\"";
+            quote = @"\"A monk who, though he receives little, does not despise what he has received, is pure in livelihood, and is not lazy—even the gods will praise him.\"";
             break;
         
         case 367:
@@ -1591,7 +1591,7 @@
             break;
         
         case 375:
-            quote = @"\"This is the beginning for a wise monk -- mindfulness of the senses, contentment, restraint according to the precepts, and keeping noble friends of pure livelihood who aren’t lazy.\"";
+            quote = @"\"This is the beginning for a wise monk—mindfulness of the senses, contentment, restraint according to the precepts, and keeping noble friends of pure livelihood who aren’t lazy.\"";
             break;
         
         case 376:
@@ -1603,7 +1603,7 @@
             break;
         
         case 378:
-            quote = @"\"The monk whose body, speech, and mind are quieted, who is collected, and has rejected the baits of the world -- he is called quiet.\"";
+            quote = @"\"The monk whose body, speech, and mind are quieted, who is collected, and has rejected the baits of the world—he is called quiet.\"";
             break;
         
         case 379:
@@ -1631,11 +1631,11 @@
             break;
         
         case 385:
-            quote = @"\"He for whom there is neither this nor that shore, nor both -- him, the fearless and unshackled, indeed I call a brahman.\"";
+            quote = @"\"He for whom there is neither this nor that shore, nor both—him, the fearless and unshackled, indeed I call a brahman.\"";
             break;
         
         case 386:
-            quote = @"\"He who is mindful, blameless, settled, dutiful, without defilements, and who has attained the highest end -- him indeed I call a brahman.\"";
+            quote = @"\"He who is mindful, blameless, settled, dutiful, without defilements, and who has attained the highest end—him indeed I call a brahman.\"";
             break;
         
         case 387:
@@ -1687,7 +1687,7 @@
             break;
         
         case 399:
-            quote = @"\"Him indeed I call a brahman who, though he has committed no offense, endures abuse, captivity, and beatings -- who has endurance as his force, and strength as his army.\"";
+            quote = @"\"Him indeed I call a brahman who, though he has committed no offense, endures abuse, captivity, and beatings—who has endurance as his force, and strength as his army.\"";
             break;
         
         case 400:
@@ -1771,11 +1771,11 @@
             break;
         
         case 420:
-            quote = @"\"Him indeed I call a brahman whose path is unknown by the gods, angels, and men --  whose defilements are extinct, and who is an Arhat.\"";
+            quote = @"\"Him indeed I call a brahman whose path is unknown by the gods, angels, and men—whose defilements are extinct, and who is an Arhat.\"";
             break;
         
         case 421:
-            quote = @"\"Him indeed I call a brahman who calls nothing his own, whether it’s in front, behind, or in between -- who is without belongings, and free from clinging.\"";
+            quote = @"\"Him indeed I call a brahman who calls nothing his own, whether it’s in front, behind, or in between—who is without belongings, and free from clinging.\"";
             break;
         
         case 422:
