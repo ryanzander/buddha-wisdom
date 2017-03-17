@@ -12,8 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *paragraphLabel;
 
-
 - (IBAction)giveThanksTouched:(id)sender;
-
 
 @end

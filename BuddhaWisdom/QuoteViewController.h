@@ -10,21 +10,13 @@
 
 @interface QuoteViewController : UIViewController
 
-
 @property (weak, nonatomic) IBOutlet UITextView *quoteTextView;
 @property (strong, nonatomic) NSString *quote;
 @property (assign) int randomNumber;
 @property (assign) BOOL knowsTip;
 
-
-
-
 - (IBAction)thanksTouched:(id)sender;
-
 - (IBAction)newQuoteTouched:(id)sender;
-
 - (IBAction)shareTouched:(id)sender;
-
-
 
 @end
