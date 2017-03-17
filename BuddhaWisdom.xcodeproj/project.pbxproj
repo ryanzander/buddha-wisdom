@@ -9,12 +9,30 @@
 /* Begin PBXBuildFile section */
 		78B9B80E1C303BC000FA6724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B80D1C303BC000FA6724 /* main.m */; };
 		78B9B8111C303BC000FA6724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8101C303BC000FA6724 /* AppDelegate.m */; };
-		78B9B8141C303BC000FA6724 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8131C303BC000FA6724 /* ViewController.m */; };
 		78B9B8171C303BC000FA6724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B8151C303BC000FA6724 /* Main.storyboard */; };
 		78B9B8191C303BC000FA6724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B8181C303BC000FA6724 /* Assets.xcassets */; };
 		78B9B81C1C303BC000FA6724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */; };
 		78B9B8271C303BC000FA6724 /* BuddhaWisdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8261C303BC000FA6724 /* BuddhaWisdomTests.m */; };
 		78B9B8321C303BC000FA6724 /* BuddhaWisdomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */; };
+		78B9B8401C303C5E00FA6724 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B9B83F1C303C5E00FA6724 /* Social.framework */; };
+		78B9B8431C303CD000FA6724 /* QuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8421C303CD000FA6724 /* QuoteViewController.m */; };
+		78B9B8461C303DA500FA6724 /* ThanksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8451C303DA500FA6724 /* ThanksViewController.m */; };
+		78D2B0EC1C32D07E00E15E98 /* Icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E11C32D07E00E15E98 /* Icon1024.png */; };
+		78D2B0ED1C32D07E00E15E98 /* Icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E21C32D07E00E15E98 /* Icon120.png */; };
+		78D2B0EE1C32D07E00E15E98 /* Icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E31C32D07E00E15E98 /* Icon152.png */; };
+		78D2B0EF1C32D07E00E15E98 /* Icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E41C32D07E00E15E98 /* Icon180.png */; };
+		78D2B0F01C32D07E00E15E98 /* Icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E51C32D07E00E15E98 /* Icon29.png */; };
+		78D2B0F11C32D07E00E15E98 /* Icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E61C32D07E00E15E98 /* Icon40.png */; };
+		78D2B0F21C32D07E00E15E98 /* Icon512.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E71C32D07E00E15E98 /* Icon512.png */; };
+		78D2B0F31C32D07E00E15E98 /* Icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E81C32D07E00E15E98 /* Icon58.png */; };
+		78D2B0F41C32D07E00E15E98 /* Icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0E91C32D07E00E15E98 /* Icon76.png */; };
+		78D2B0F51C32D07E00E15E98 /* Icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0EA1C32D07E00E15E98 /* Icon80.png */; };
+		78D2B0F61C32D07E00E15E98 /* Icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0EB1C32D07E00E15E98 /* Icon87.png */; };
+		78D2B0F81C32D14700E15E98 /* Icon167.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B0F71C32D14700E15E98 /* Icon167.png */; };
+		78D2B1101C35219700E15E98 /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78D2B10D1C35219700E15E98 /* iRate.bundle */; };
+		78D2B1111C35219700E15E98 /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D2B10F1C35219700E15E98 /* iRate.m */; };
+		78DC1DE31C31703000899EA8 /* FullSizeDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DC1DE11C31703000899EA8 /* FullSizeDark.png */; };
+		78DC1DE41C31703000899EA8 /* FullSizeLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DC1DE21C31703000899EA8 /* FullSizeLight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +57,6 @@
 		78B9B80D1C303BC000FA6724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78B9B80F1C303BC000FA6724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78B9B8101C303BC000FA6724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78B9B8121C303BC000FA6724 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78B9B8131C303BC000FA6724 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		78B9B8161C303BC000FA6724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78B9B8181C303BC000FA6724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B9B81B1C303BC000FA6724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,28 @@
 		78B9B82D1C303BC000FA6724 /* BuddhaWisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhaWisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddhaWisdomUITests.m; sourceTree = "<group>"; };
 		78B9B8331C303BC000FA6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B9B83F1C303C5E00FA6724 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		78B9B8411C303CD000FA6724 /* QuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteViewController.h; sourceTree = "<group>"; };
+		78B9B8421C303CD000FA6724 /* QuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteViewController.m; sourceTree = "<group>"; };
+		78B9B8441C303DA500FA6724 /* ThanksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThanksViewController.h; sourceTree = "<group>"; };
+		78B9B8451C303DA500FA6724 /* ThanksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThanksViewController.m; sourceTree = "<group>"; };
+		78D2B0E11C32D07E00E15E98 /* Icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon1024.png; sourceTree = "<group>"; };
+		78D2B0E21C32D07E00E15E98 /* Icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon120.png; sourceTree = "<group>"; };
+		78D2B0E31C32D07E00E15E98 /* Icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon152.png; sourceTree = "<group>"; };
+		78D2B0E41C32D07E00E15E98 /* Icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon180.png; sourceTree = "<group>"; };
+		78D2B0E51C32D07E00E15E98 /* Icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon29.png; sourceTree = "<group>"; };
+		78D2B0E61C32D07E00E15E98 /* Icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon40.png; sourceTree = "<group>"; };
+		78D2B0E71C32D07E00E15E98 /* Icon512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon512.png; sourceTree = "<group>"; };
+		78D2B0E81C32D07E00E15E98 /* Icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon58.png; sourceTree = "<group>"; };
+		78D2B0E91C32D07E00E15E98 /* Icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon76.png; sourceTree = "<group>"; };
+		78D2B0EA1C32D07E00E15E98 /* Icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon80.png; sourceTree = "<group>"; };
+		78D2B0EB1C32D07E00E15E98 /* Icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon87.png; sourceTree = "<group>"; };
+		78D2B0F71C32D14700E15E98 /* Icon167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon167.png; sourceTree = "<group>"; };
+		78D2B10D1C35219700E15E98 /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		78D2B10E1C35219700E15E98 /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		78D2B10F1C35219700E15E98 /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		78DC1DE11C31703000899EA8 /* FullSizeDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullSizeDark.png; sourceTree = "<group>"; };
+		78DC1DE21C31703000899EA8 /* FullSizeLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullSizeLight.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B9B8401C303C5E00FA6724 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,7 @@
 		78B9B8001C303BC000FA6724 = {
 			isa = PBXGroup;
 			children = (
+				78B9B83F1C303C5E00FA6724 /* Social.framework */,
 				78B9B80B1C303BC000FA6724 /* BuddhaWisdom */,
 				78B9B8251C303BC000FA6724 /* BuddhaWisdomTests */,
 				78B9B8301C303BC000FA6724 /* BuddhaWisdomUITests */,
@@ -103,8 +143,10 @@
 			children = (
 				78B9B80F1C303BC000FA6724 /* AppDelegate.h */,
 				78B9B8101C303BC000FA6724 /* AppDelegate.m */,
-				78B9B8121C303BC000FA6724 /* ViewController.h */,
-				78B9B8131C303BC000FA6724 /* ViewController.m */,
+				78B9B8411C303CD000FA6724 /* QuoteViewController.h */,
+				78B9B8421C303CD000FA6724 /* QuoteViewController.m */,
+				78B9B8441C303DA500FA6724 /* ThanksViewController.h */,
+				78B9B8451C303DA500FA6724 /* ThanksViewController.m */,
 				78B9B8151C303BC000FA6724 /* Main.storyboard */,
 				78B9B8181C303BC000FA6724 /* Assets.xcassets */,
 				78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */,
@@ -117,6 +159,10 @@
 		78B9B80C1C303BC000FA6724 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78D2B10C1C35219700E15E98 /* iRate copy */,
+				78D2B0E01C32D07E00E15E98 /* BuddhaIconsAndSS */,
+				78DC1DE11C31703000899EA8 /* FullSizeDark.png */,
+				78DC1DE21C31703000899EA8 /* FullSizeLight.png */,
 				78B9B80D1C303BC000FA6724 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +184,35 @@
 				78B9B8331C303BC000FA6724 /* Info.plist */,
 			);
 			path = BuddhaWisdomUITests;
+			sourceTree = "<group>";
+		};
+		78D2B0E01C32D07E00E15E98 /* BuddhaIconsAndSS */ = {
+			isa = PBXGroup;
+			children = (
+				78D2B0E11C32D07E00E15E98 /* Icon1024.png */,
+				78D2B0F71C32D14700E15E98 /* Icon167.png */,
+				78D2B0E21C32D07E00E15E98 /* Icon120.png */,
+				78D2B0E31C32D07E00E15E98 /* Icon152.png */,
+				78D2B0E41C32D07E00E15E98 /* Icon180.png */,
+				78D2B0E51C32D07E00E15E98 /* Icon29.png */,
+				78D2B0E61C32D07E00E15E98 /* Icon40.png */,
+				78D2B0E71C32D07E00E15E98 /* Icon512.png */,
+				78D2B0E81C32D07E00E15E98 /* Icon58.png */,
+				78D2B0E91C32D07E00E15E98 /* Icon76.png */,
+				78D2B0EA1C32D07E00E15E98 /* Icon80.png */,
+				78D2B0EB1C32D07E00E15E98 /* Icon87.png */,
+			);
+			path = BuddhaIconsAndSS;
+			sourceTree = "<group>";
+		};
+		78D2B10C1C35219700E15E98 /* iRate copy */ = {
+			isa = PBXGroup;
+			children = (
+				78D2B10D1C35219700E15E98 /* iRate.bundle */,
+				78D2B10E1C35219700E15E98 /* iRate.h */,
+				78D2B10F1C35219700E15E98 /* iRate.m */,
+			);
+			path = "iRate copy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +282,7 @@
 				TargetAttributes = {
 					78B9B8081C303BC000FA6724 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D9N528BE35;
 					};
 					78B9B8211C303BC000FA6724 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,9 +319,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D2B0ED1C32D07E00E15E98 /* Icon120.png in Resources */,
+				78DC1DE41C31703000899EA8 /* FullSizeLight.png in Resources */,
 				78B9B81C1C303BC000FA6724 /* LaunchScreen.storyboard in Resources */,
+				78D2B0F51C32D07E00E15E98 /* Icon80.png in Resources */,
+				78D2B0F41C32D07E00E15E98 /* Icon76.png in Resources */,
+				78D2B1101C35219700E15E98 /* iRate.bundle in Resources */,
+				78D2B0F61C32D07E00E15E98 /* Icon87.png in Resources */,
+				78D2B0F01C32D07E00E15E98 /* Icon29.png in Resources */,
 				78B9B8191C303BC000FA6724 /* Assets.xcassets in Resources */,
+				78D2B0F31C32D07E00E15E98 /* Icon58.png in Resources */,
+				78D2B0EC1C32D07E00E15E98 /* Icon1024.png in Resources */,
 				78B9B8171C303BC000FA6724 /* Main.storyboard in Resources */,
+				78D2B0F21C32D07E00E15E98 /* Icon512.png in Resources */,
+				78DC1DE31C31703000899EA8 /* FullSizeDark.png in Resources */,
+				78D2B0F81C32D14700E15E98 /* Icon167.png in Resources */,
+				78D2B0EE1C32D07E00E15E98 /* Icon152.png in Resources */,
+				78D2B0F11C32D07E00E15E98 /* Icon40.png in Resources */,
+				78D2B0EF1C32D07E00E15E98 /* Icon180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +361,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B9B8141C303BC000FA6724 /* ViewController.m in Sources */,
 				78B9B8111C303BC000FA6724 /* AppDelegate.m in Sources */,
+				78D2B1111C35219700E15E98 /* iRate.m in Sources */,
+				78B9B8461C303DA500FA6724 /* ThanksViewController.m in Sources */,
+				78B9B8431C303CD000FA6724 /* QuoteViewController.m in Sources */,
 				78B9B80E1C303BC000FA6724 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,10 +506,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BuddhaWisdom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.buddha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +521,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BuddhaWisdom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.buddha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +599,7 @@
 				78B9B8381C303BC000FA6724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78B9B8391C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +608,7 @@
 				78B9B83B1C303BC000FA6724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78B9B83C1C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +617,7 @@
 				78B9B83E1C303BC000FA6724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
