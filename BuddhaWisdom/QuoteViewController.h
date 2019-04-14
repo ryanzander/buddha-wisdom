@@ -12,8 +12,8 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *quoteTextView;
 @property (strong, nonatomic) NSString *quote;
-@property (assign) int randomNumber;
-@property (assign) BOOL knowsTip;
+@property (weak, nonatomic) IBOutlet UIView *shareView;
+@property (weak, nonatomic) IBOutlet UITextView *shareTextView;
 
 - (IBAction)thanksTouched:(id)sender;
 - (IBAction)newQuoteTouched:(id)sender;

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7859DFB4226309AD00A91A3D /* QuoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7859DFB3226309AD00A91A3D /* QuoteManager.m */; };
+		7859DFB62263191000A91A3D /* Icon20.png in Resources */ = {isa = PBXBuildFile; fileRef = 7859DFB52263191000A91A3D /* Icon20.png */; };
+		7859DFBA2263196800A91A3D /* Icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 7859DFB92263196800A91A3D /* Icon60.png */; };
 		78B9B80E1C303BC000FA6724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B80D1C303BC000FA6724 /* main.m */; };
 		78B9B8111C303BC000FA6724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8101C303BC000FA6724 /* AppDelegate.m */; };
 		78B9B8171C303BC000FA6724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B8151C303BC000FA6724 /* Main.storyboard */; };
 		78B9B8191C303BC000FA6724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B8181C303BC000FA6724 /* Assets.xcassets */; };
 		78B9B81C1C303BC000FA6724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */; };
-		78B9B8271C303BC000FA6724 /* BuddhaWisdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8261C303BC000FA6724 /* BuddhaWisdomTests.m */; };
-		78B9B8321C303BC000FA6724 /* BuddhaWisdomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */; };
 		78B9B8401C303C5E00FA6724 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B9B83F1C303C5E00FA6724 /* Social.framework */; };
 		78B9B8431C303CD000FA6724 /* QuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8421C303CD000FA6724 /* QuoteViewController.m */; };
 		78B9B8461C303DA500FA6724 /* ThanksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B9B8451C303DA500FA6724 /* ThanksViewController.m */; };
@@ -35,24 +36,11 @@
 		78DC1DE41C31703000899EA8 /* FullSizeLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 78DC1DE21C31703000899EA8 /* FullSizeLight.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		78B9B8231C303BC000FA6724 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78B9B8011C303BC000FA6724 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78B9B8081C303BC000FA6724;
-			remoteInfo = BuddhaWisdom;
-		};
-		78B9B82E1C303BC000FA6724 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78B9B8011C303BC000FA6724 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78B9B8081C303BC000FA6724;
-			remoteInfo = BuddhaWisdom;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		7859DFB22263091300A91A3D /* QuoteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteManager.h; sourceTree = "<group>"; };
+		7859DFB3226309AD00A91A3D /* QuoteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteManager.m; sourceTree = "<group>"; };
+		7859DFB52263191000A91A3D /* Icon20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon20.png; sourceTree = "<group>"; };
+		7859DFB92263196800A91A3D /* Icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon60.png; sourceTree = "<group>"; };
 		78B9B8091C303BC000FA6724 /* BuddhaWisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddhaWisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B9B80D1C303BC000FA6724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78B9B80F1C303BC000FA6724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,12 +49,6 @@
 		78B9B8181C303BC000FA6724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78B9B81B1C303BC000FA6724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78B9B81D1C303BC000FA6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78B9B8221C303BC000FA6724 /* BuddhaWisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhaWisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78B9B8261C303BC000FA6724 /* BuddhaWisdomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddhaWisdomTests.m; sourceTree = "<group>"; };
-		78B9B8281C303BC000FA6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78B9B82D1C303BC000FA6724 /* BuddhaWisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhaWisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddhaWisdomUITests.m; sourceTree = "<group>"; };
-		78B9B8331C303BC000FA6724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B9B83F1C303C5E00FA6724 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		78B9B8411C303CD000FA6724 /* QuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteViewController.h; sourceTree = "<group>"; };
 		78B9B8421C303CD000FA6724 /* QuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteViewController.m; sourceTree = "<group>"; };
@@ -100,30 +82,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78B9B81F1C303BC000FA6724 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78B9B82A1C303BC000FA6724 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7859DFBB226319BD00A91A3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78B9B8411C303CD000FA6724 /* QuoteViewController.h */,
+				78B9B8421C303CD000FA6724 /* QuoteViewController.m */,
+				78B9B8441C303DA500FA6724 /* ThanksViewController.h */,
+				78B9B8451C303DA500FA6724 /* ThanksViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7859DFBC226319D400A91A3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7859DFB22263091300A91A3D /* QuoteManager.h */,
+				7859DFB3226309AD00A91A3D /* QuoteManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7859DFBD22631A1300A91A3D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				78B9B80F1C303BC000FA6724 /* AppDelegate.h */,
+				78B9B8101C303BC000FA6724 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		78B9B8001C303BC000FA6724 = {
 			isa = PBXGroup;
 			children = (
 				78B9B83F1C303C5E00FA6724 /* Social.framework */,
 				78B9B80B1C303BC000FA6724 /* BuddhaWisdom */,
-				78B9B8251C303BC000FA6724 /* BuddhaWisdomTests */,
-				78B9B8301C303BC000FA6724 /* BuddhaWisdomUITests */,
 				78B9B80A1C303BC000FA6724 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,8 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				78B9B8091C303BC000FA6724 /* BuddhaWisdom.app */,
-				78B9B8221C303BC000FA6724 /* BuddhaWisdomTests.xctest */,
-				78B9B82D1C303BC000FA6724 /* BuddhaWisdomUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,17 +134,14 @@
 		78B9B80B1C303BC000FA6724 /* BuddhaWisdom */ = {
 			isa = PBXGroup;
 			children = (
-				78B9B80F1C303BC000FA6724 /* AppDelegate.h */,
-				78B9B8101C303BC000FA6724 /* AppDelegate.m */,
-				78B9B8411C303CD000FA6724 /* QuoteViewController.h */,
-				78B9B8421C303CD000FA6724 /* QuoteViewController.m */,
-				78B9B8441C303DA500FA6724 /* ThanksViewController.h */,
-				78B9B8451C303DA500FA6724 /* ThanksViewController.m */,
-				78B9B8151C303BC000FA6724 /* Main.storyboard */,
-				78B9B8181C303BC000FA6724 /* Assets.xcassets */,
-				78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */,
-				78B9B81D1C303BC000FA6724 /* Info.plist */,
+				7859DFBD22631A1300A91A3D /* AppDelegate */,
+				7859DFBC226319D400A91A3D /* Model */,
+				7859DFBB226319BD00A91A3D /* Controller */,
 				78B9B80C1C303BC000FA6724 /* Supporting Files */,
+				78B9B8151C303BC000FA6724 /* Main.storyboard */,
+				78B9B81A1C303BC000FA6724 /* LaunchScreen.storyboard */,
+				78B9B8181C303BC000FA6724 /* Assets.xcassets */,
+				78B9B81D1C303BC000FA6724 /* Info.plist */,
 			);
 			path = BuddhaWisdom;
 			sourceTree = "<group>";
@@ -168,24 +158,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		78B9B8251C303BC000FA6724 /* BuddhaWisdomTests */ = {
-			isa = PBXGroup;
-			children = (
-				78B9B8261C303BC000FA6724 /* BuddhaWisdomTests.m */,
-				78B9B8281C303BC000FA6724 /* Info.plist */,
-			);
-			path = BuddhaWisdomTests;
-			sourceTree = "<group>";
-		};
-		78B9B8301C303BC000FA6724 /* BuddhaWisdomUITests */ = {
-			isa = PBXGroup;
-			children = (
-				78B9B8311C303BC000FA6724 /* BuddhaWisdomUITests.m */,
-				78B9B8331C303BC000FA6724 /* Info.plist */,
-			);
-			path = BuddhaWisdomUITests;
-			sourceTree = "<group>";
-		};
 		78D2B0E01C32D07E00E15E98 /* BuddhaIconsAndSS */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +169,8 @@
 				78D2B0E51C32D07E00E15E98 /* Icon29.png */,
 				78D2B0E61C32D07E00E15E98 /* Icon40.png */,
 				78D2B0E71C32D07E00E15E98 /* Icon512.png */,
+				7859DFB92263196800A91A3D /* Icon60.png */,
+				7859DFB52263191000A91A3D /* Icon20.png */,
 				78D2B0E81C32D07E00E15E98 /* Icon58.png */,
 				78D2B0E91C32D07E00E15E98 /* Icon76.png */,
 				78D2B0EA1C32D07E00E15E98 /* Icon80.png */,
@@ -235,42 +209,6 @@
 			productReference = 78B9B8091C303BC000FA6724 /* BuddhaWisdom.app */;
 			productType = "com.apple.product-type.application";
 		};
-		78B9B8211C303BC000FA6724 /* BuddhaWisdomTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78B9B8391C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomTests" */;
-			buildPhases = (
-				78B9B81E1C303BC000FA6724 /* Sources */,
-				78B9B81F1C303BC000FA6724 /* Frameworks */,
-				78B9B8201C303BC000FA6724 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78B9B8241C303BC000FA6724 /* PBXTargetDependency */,
-			);
-			name = BuddhaWisdomTests;
-			productName = BuddhaWisdomTests;
-			productReference = 78B9B8221C303BC000FA6724 /* BuddhaWisdomTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		78B9B82C1C303BC000FA6724 /* BuddhaWisdomUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78B9B83C1C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomUITests" */;
-			buildPhases = (
-				78B9B8291C303BC000FA6724 /* Sources */,
-				78B9B82A1C303BC000FA6724 /* Frameworks */,
-				78B9B82B1C303BC000FA6724 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78B9B82F1C303BC000FA6724 /* PBXTargetDependency */,
-			);
-			name = BuddhaWisdomUITests;
-			productName = BuddhaWisdomUITests;
-			productReference = 78B9B82D1C303BC000FA6724 /* BuddhaWisdomUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -284,14 +222,6 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = D9N528BE35;
 					};
-					78B9B8211C303BC000FA6724 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 78B9B8081C303BC000FA6724;
-					};
-					78B9B82C1C303BC000FA6724 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 78B9B8081C303BC000FA6724;
-					};
 				};
 			};
 			buildConfigurationList = 78B9B8041C303BC000FA6724 /* Build configuration list for PBXProject "BuddhaWisdom" */;
@@ -299,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -308,8 +239,6 @@
 			projectRoot = "";
 			targets = (
 				78B9B8081C303BC000FA6724 /* BuddhaWisdom */,
-				78B9B8211C303BC000FA6724 /* BuddhaWisdomTests */,
-				78B9B82C1C303BC000FA6724 /* BuddhaWisdomUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -327,30 +256,18 @@
 				78D2B1101C35219700E15E98 /* iRate.bundle in Resources */,
 				78D2B0F61C32D07E00E15E98 /* Icon87.png in Resources */,
 				78D2B0F01C32D07E00E15E98 /* Icon29.png in Resources */,
+				7859DFBA2263196800A91A3D /* Icon60.png in Resources */,
 				78B9B8191C303BC000FA6724 /* Assets.xcassets in Resources */,
 				78D2B0F31C32D07E00E15E98 /* Icon58.png in Resources */,
 				78D2B0EC1C32D07E00E15E98 /* Icon1024.png in Resources */,
 				78B9B8171C303BC000FA6724 /* Main.storyboard in Resources */,
 				78D2B0F21C32D07E00E15E98 /* Icon512.png in Resources */,
 				78DC1DE31C31703000899EA8 /* FullSizeDark.png in Resources */,
+				7859DFB62263191000A91A3D /* Icon20.png in Resources */,
 				78D2B0F81C32D14700E15E98 /* Icon167.png in Resources */,
 				78D2B0EE1C32D07E00E15E98 /* Icon152.png in Resources */,
 				78D2B0F11C32D07E00E15E98 /* Icon40.png in Resources */,
 				78D2B0EF1C32D07E00E15E98 /* Icon180.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78B9B8201C303BC000FA6724 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78B9B82B1C303BC000FA6724 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,40 +282,12 @@
 				78D2B1111C35219700E15E98 /* iRate.m in Sources */,
 				78B9B8461C303DA500FA6724 /* ThanksViewController.m in Sources */,
 				78B9B8431C303CD000FA6724 /* QuoteViewController.m in Sources */,
+				7859DFB4226309AD00A91A3D /* QuoteManager.m in Sources */,
 				78B9B80E1C303BC000FA6724 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78B9B81E1C303BC000FA6724 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78B9B8271C303BC000FA6724 /* BuddhaWisdomTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78B9B8291C303BC000FA6724 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78B9B8321C303BC000FA6724 /* BuddhaWisdomUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78B9B8241C303BC000FA6724 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78B9B8081C303BC000FA6724 /* BuddhaWisdom */;
-			targetProxy = 78B9B8231C303BC000FA6724 /* PBXContainerItemProxy */;
-		};
-		78B9B82F1C303BC000FA6724 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78B9B8081C303BC000FA6724 /* BuddhaWisdom */;
-			targetProxy = 78B9B82E1C303BC000FA6724 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		78B9B8151C303BC000FA6724 /* Main.storyboard */ = {
@@ -536,54 +425,6 @@
 			};
 			name = Release;
 		};
-		78B9B83A1C303BC000FA6724 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BuddhaWisdomTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddhaWisdom.app/BuddhaWisdom";
-			};
-			name = Debug;
-		};
-		78B9B83B1C303BC000FA6724 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BuddhaWisdomTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddhaWisdom.app/BuddhaWisdom";
-			};
-			name = Release;
-		};
-		78B9B83D1C303BC000FA6724 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BuddhaWisdomUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BuddhaWisdom;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		78B9B83E1C303BC000FA6724 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = BuddhaWisdomUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nagarajarivers.BuddhaWisdomUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = BuddhaWisdom;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -601,24 +442,6 @@
 			buildConfigurations = (
 				78B9B8371C303BC000FA6724 /* Debug */,
 				78B9B8381C303BC000FA6724 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78B9B8391C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78B9B83A1C303BC000FA6724 /* Debug */,
-				78B9B83B1C303BC000FA6724 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78B9B83C1C303BC000FA6724 /* Build configuration list for PBXNativeTarget "BuddhaWisdomUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78B9B83D1C303BC000FA6724 /* Debug */,
-				78B9B83E1C303BC000FA6724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

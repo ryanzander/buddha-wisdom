@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d1F-0O-86F">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="d1F-0O-86F">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -126,20 +126,68 @@
                                             <action selector="thanksTouched:" destination="tmg-Ew-64S" eventType="touchUpInside" id="d1Q-FJ-HRk"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnC-Cn-AyA">
-                                        <rect key="frame" x="82" y="84" width="42" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bc3-OK-Xqb">
+                                        <rect key="frame" x="0.0" y="-600" width="320" height="480"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FullSizeDark.png" translatesAutoresizingMaskIntoConstraints="NO" id="5xJ-YC-SEf">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="SxL-Xo-P4N">
+                                                <rect key="frame" x="20" y="100" width="280" height="320"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="320" id="4Up-EI-tfh"/>
+                                                </constraints>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </string>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Baskerville-BoldItalic" family="Baskerville" pointSize="20"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="4Up-EI-tfh"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular">
+                                                    <mask key="constraints">
+                                                        <include reference="4Up-EI-tfh"/>
+                                                    </mask>
+                                                </variation>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buddha Wisdom for iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdj-mO-RHd">
+                                                <rect key="frame" x="20" y="451" width="280" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="Gfl-36-Hp3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                <color key="textColor" white="1" alpha="0.50438784246575341" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="5xJ-YC-SEf" firstAttribute="top" secondItem="Bc3-OK-Xqb" secondAttribute="top" id="BHU-hQ-UWh"/>
+                                            <constraint firstItem="5xJ-YC-SEf" firstAttribute="leading" secondItem="Bc3-OK-Xqb" secondAttribute="leading" id="L9w-OW-zGq"/>
+                                            <constraint firstAttribute="bottom" secondItem="Sdj-mO-RHd" secondAttribute="bottom" constant="8" id="LSv-OS-0ZS"/>
+                                            <constraint firstAttribute="trailing" secondItem="SxL-Xo-P4N" secondAttribute="trailing" constant="20" id="WKI-Po-uIy"/>
+                                            <constraint firstAttribute="height" constant="480" id="ZJM-7m-Bep"/>
+                                            <constraint firstAttribute="width" constant="320" id="bCJ-oY-mLz"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sdj-mO-RHd" secondAttribute="trailing" constant="20" id="cuB-A3-ncx"/>
+                                            <constraint firstAttribute="bottom" secondItem="5xJ-YC-SEf" secondAttribute="bottom" id="eJR-u1-ghV"/>
+                                            <constraint firstAttribute="trailing" secondItem="5xJ-YC-SEf" secondAttribute="trailing" id="gaN-fX-YOo"/>
+                                            <constraint firstItem="SxL-Xo-P4N" firstAttribute="leading" secondItem="Bc3-OK-Xqb" secondAttribute="leading" constant="20" id="m7S-fI-zrr"/>
+                                            <constraint firstItem="SxL-Xo-P4N" firstAttribute="centerY" secondItem="Bc3-OK-Xqb" secondAttribute="centerY" constant="20" id="ob1-cj-eHd"/>
+                                            <constraint firstItem="Sdj-mO-RHd" firstAttribute="leading" secondItem="Bc3-OK-Xqb" secondAttribute="leading" constant="20" id="rYS-gz-rfe"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="cME-CU-fK6" secondAttribute="bottom" id="0Sr-V4-uhc"/>
                                     <constraint firstAttribute="trailing" secondItem="a5u-5x-QXT" secondAttribute="trailing" id="3Rt-zt-Vam"/>
                                     <constraint firstItem="N85-eO-3qn" firstAttribute="centerY" secondItem="Bmu-cV-BPG" secondAttribute="centerY" id="6N3-hS-fgd"/>
+                                    <constraint firstItem="Bc3-OK-Xqb" firstAttribute="top" secondItem="Bmu-cV-BPG" secondAttribute="top" constant="-600" id="ALV-Mh-1hI"/>
                                     <constraint firstItem="a5u-5x-QXT" firstAttribute="leading" secondItem="Bmu-cV-BPG" secondAttribute="leading" id="KIj-y8-YJO"/>
+                                    <constraint firstItem="Bc3-OK-Xqb" firstAttribute="leading" secondItem="Bmu-cV-BPG" secondAttribute="leading" id="YKJ-0G-qoe"/>
                                     <constraint firstItem="a5u-5x-QXT" firstAttribute="top" secondItem="Bmu-cV-BPG" secondAttribute="top" id="YfW-ba-z9H"/>
                                     <constraint firstAttribute="trailing" secondItem="N85-eO-3qn" secondAttribute="trailing" constant="20" id="dP1-6Y-HKR"/>
                                     <constraint firstItem="N85-eO-3qn" firstAttribute="leading" secondItem="Bmu-cV-BPG" secondAttribute="leading" constant="20" id="eFY-Gb-LRr"/>
@@ -163,19 +211,19 @@
                                         <exclude reference="cME-CU-fK6"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <exclude reference="m1D-L8-YPI"/>
-                                        <exclude reference="uS8-eb-kPx"/>
-                                        <exclude reference="qGG-09-cfU"/>
-                                        <exclude reference="xbB-9w-LCs"/>
-                                        <exclude reference="0Sr-V4-uhc"/>
-                                        <exclude reference="f4l-vF-fs4"/>
-                                        <exclude reference="6N3-hS-fgd"/>
-                                        <exclude reference="dP1-6Y-HKR"/>
-                                        <exclude reference="eFY-Gb-LRr"/>
                                         <exclude reference="3Rt-zt-Vam"/>
                                         <exclude reference="KIj-y8-YJO"/>
                                         <exclude reference="YfW-ba-z9H"/>
                                         <exclude reference="lSa-iN-b7a"/>
+                                        <exclude reference="6N3-hS-fgd"/>
+                                        <exclude reference="dP1-6Y-HKR"/>
+                                        <exclude reference="eFY-Gb-LRr"/>
+                                        <exclude reference="qGG-09-cfU"/>
+                                        <exclude reference="xbB-9w-LCs"/>
+                                        <exclude reference="m1D-L8-YPI"/>
+                                        <exclude reference="uS8-eb-kPx"/>
+                                        <exclude reference="0Sr-V4-uhc"/>
+                                        <exclude reference="f4l-vF-fs4"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular">
@@ -187,19 +235,19 @@
                                         <include reference="cME-CU-fK6"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <include reference="m1D-L8-YPI"/>
-                                        <include reference="uS8-eb-kPx"/>
-                                        <include reference="qGG-09-cfU"/>
-                                        <include reference="xbB-9w-LCs"/>
-                                        <include reference="0Sr-V4-uhc"/>
-                                        <include reference="f4l-vF-fs4"/>
-                                        <include reference="6N3-hS-fgd"/>
-                                        <include reference="dP1-6Y-HKR"/>
-                                        <include reference="eFY-Gb-LRr"/>
                                         <include reference="3Rt-zt-Vam"/>
                                         <include reference="KIj-y8-YJO"/>
                                         <include reference="YfW-ba-z9H"/>
                                         <include reference="lSa-iN-b7a"/>
+                                        <include reference="6N3-hS-fgd"/>
+                                        <include reference="dP1-6Y-HKR"/>
+                                        <include reference="eFY-Gb-LRr"/>
+                                        <include reference="qGG-09-cfU"/>
+                                        <include reference="xbB-9w-LCs"/>
+                                        <include reference="m1D-L8-YPI"/>
+                                        <include reference="uS8-eb-kPx"/>
+                                        <include reference="0Sr-V4-uhc"/>
+                                        <include reference="f4l-vF-fs4"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -237,6 +285,8 @@
                     <navigationItem key="navigationItem" id="d2Z-Lq-Fap"/>
                     <connections>
                         <outlet property="quoteTextView" destination="N85-eO-3qn" id="b85-cO-2Jg"/>
+                        <outlet property="shareTextView" destination="SxL-Xo-P4N" id="4Sg-ue-Prx"/>
+                        <outlet property="shareView" destination="Bc3-OK-Xqb" id="Pqf-p6-WN1"/>
                         <segue destination="pmQ-LZ-7rK" kind="show" identifier="GoToThanks" id="qSq-O1-7BS"/>
                     </connections>
                 </viewController>
@@ -294,9 +344,9 @@
                                                 <variation key="heightClass=regular" constant="200"/>
                                             </constraint>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Give Thanks">
-                                            <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <variation key="default">
                                             <mask key="constraints">
@@ -332,10 +382,10 @@
                                         <exclude reference="PCy-P5-fTj"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <exclude reference="DDv-Bm-mUP"/>
-                                        <exclude reference="dNf-s7-Lzy"/>
                                         <exclude reference="4k4-Bf-cjU"/>
                                         <exclude reference="YSA-Z2-sSd"/>
+                                        <exclude reference="DDv-Bm-mUP"/>
+                                        <exclude reference="dNf-s7-Lzy"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular">
@@ -344,10 +394,10 @@
                                         <include reference="PCy-P5-fTj"/>
                                     </mask>
                                     <mask key="constraints">
-                                        <include reference="DDv-Bm-mUP"/>
-                                        <include reference="dNf-s7-Lzy"/>
                                         <include reference="4k4-Bf-cjU"/>
                                         <include reference="YSA-Z2-sSd"/>
+                                        <include reference="DDv-Bm-mUP"/>
+                                        <include reference="dNf-s7-Lzy"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -396,7 +446,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="d1F-0O-86F" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tb7-5M-I4V">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
