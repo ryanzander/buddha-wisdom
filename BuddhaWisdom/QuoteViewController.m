@@ -48,7 +48,7 @@
                      animations:^{
                          
                          // first we fade out the text view
-                         quoteTextView.alpha = 0.0;
+                         self->quoteTextView.alpha = 0.0;
                      }
                      completion:^(BOOL finished){
                          
@@ -66,7 +66,7 @@
                                                                animations:^{
                                                                    
                                                                    // finally we fade the text view back in
-                                                                   quoteTextView.alpha = 1.0;
+                                                                   self->quoteTextView.alpha = 1.0;
                                                                }
                                                                completion:^(BOOL finished){
                                                                    //
