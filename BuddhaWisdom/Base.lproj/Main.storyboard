@@ -252,19 +252,18 @@
                                 </variation>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Bmu-cV-BPG" secondAttribute="trailing" id="4Gd-w9-712"/>
+                            <constraint firstItem="vMd-JL-2io" firstAttribute="top" secondItem="Bmu-cV-BPG" secondAttribute="bottom" id="CR2-zx-Cdy"/>
                             <constraint firstItem="Bmu-cV-BPG" firstAttribute="leading" secondItem="5O9-Nn-TCv" secondAttribute="leading" id="Tu6-eo-lJL"/>
                             <constraint firstItem="Bmu-cV-BPG" firstAttribute="top" secondItem="5O9-Nn-TCv" secondAttribute="top" id="VUE-9j-yA5"/>
-                            <constraint firstItem="vMd-JL-2io" firstAttribute="top" secondItem="Bmu-cV-BPG" secondAttribute="bottom" id="XuV-Qe-cBs"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Bmu-cV-BPG"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="XuV-Qe-cBs"/>
                                 <exclude reference="4Gd-w9-712"/>
                                 <exclude reference="Tu6-eo-lJL"/>
                                 <exclude reference="VUE-9j-yA5"/>
@@ -275,7 +274,6 @@
                                 <include reference="Bmu-cV-BPG"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="XuV-Qe-cBs"/>
                                 <include reference="4Gd-w9-712"/>
                                 <include reference="Tu6-eo-lJL"/>
                                 <include reference="VUE-9j-yA5"/>
