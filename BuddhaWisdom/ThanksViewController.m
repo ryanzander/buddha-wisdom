@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     // set the text for our paragraph label
-    NSString *paragraph = @"Thanks for downloading.\n\nI don't want to mix the Buddha's teachings with advertisements. So this app is ad-free.\n\nI hope that one or more of these sayings helps you see the world in a new light.\n\nIf the app had any benefit for you, please consider giving some thanks to the developer by clicking on the button below.";
+    NSString *paragraph = @"Thanks for downloading.\n\nI don't want to mix the Buddha's teachings with advertisements. So this app is ad-free.\n\nI hope that one or more of these sayings helps you see the world in a new light.\n\nIf the app had any benefit for you, please 'pay it forward' by doing a good deed for another person today.";
     
     self.paragraphLabel.text = paragraph;
     
